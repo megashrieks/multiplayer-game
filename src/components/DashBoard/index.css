@@ -1,6 +1,6 @@
 .centered{
-    width:300px;
-    height:300px;
+    width:auto;
+    height:auto;
     transform:translate(-50%, -50%);
     position:absolute;
     top:50%;
