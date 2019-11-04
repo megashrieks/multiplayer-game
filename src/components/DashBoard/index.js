@@ -10,10 +10,9 @@ export default props => {
     let join = () => {
         if (!code.value)
             channelCode = ~~(Math.random() * 1000);
-        playerContext.changeName(player);
     }
     useEffect(() => {
-        if(player.value)
+        if(player.value && channelCode)
             props.history.push("/ttt/" + channelCode);
     },[playerContext.name])
     return <div className="centered">

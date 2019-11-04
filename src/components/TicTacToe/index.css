@@ -11,10 +11,18 @@
 .cell.disabled{
     cursor:not-allowed;
 }
+
 .row{
     font-size:0px;
     line-height:0;
 }
+.row.won .captured{
+    background:rgb(56,200,56);
+}
 .cell.blue{
     color:purple;
+}
+.row .captured{
+    background:rgb(255,56,56);
+    color:white;
 }
